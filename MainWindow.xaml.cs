@@ -20,9 +20,17 @@ namespace BibliotecaScolastica
     /// </summary>
     public partial class MainWindow : Window
     {
+        Biblioteca _biblioteca;
+
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        void AssegnaDatiBiblioteca()
+        {
+
         }
     }
 }

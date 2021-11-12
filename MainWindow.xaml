@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ListBox x:Name="lbx_listaLibri" Margin="323,36,276,96"/>
+        <Label Content="Libri" HorizontalAlignment="Left" Margin="325,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_nomeBiblioteca" Content="Nome Biblioteca" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Indirizzo:" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_indirizzo" Content="via ..." HorizontalAlignment="Left" Margin="68,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Orari:" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Apertura:" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_oraApertura" Content="8" HorizontalAlignment="Left" Margin="68,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Chiusura:" HorizontalAlignment="Left" Margin="9,114,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_oraChiusura" Content="8" HorizontalAlignment="Left" Margin="68,114,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_numeroLibri" Content="0" HorizontalAlignment="Left" Margin="363,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_titoloLibro" Content="titolo" HorizontalAlignment="Left" Margin="529,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_autore" Content="titolo" HorizontalAlignment="Left" Margin="553,62,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_anno" Content="2021" HorizontalAlignment="Left" Margin="570,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Di:" HorizontalAlignment="Left" Margin="529,62,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cerca" HorizontalAlignment="Left" Margin="324,339,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txb_ricercaLibro" HorizontalAlignment="Left" Margin="325,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="22"/>
+        <ComboBox x:Name="dbx_tipoRicerca" HorizontalAlignment="Left" Margin="364,343,0,0" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Anno:" HorizontalAlignment="Left" Margin="529,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Editore:" HorizontalAlignment="Left" Margin="529,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_editore" Content="titolo" HorizontalAlignment="Left" Margin="579,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pagine:" HorizontalAlignment="Left" Margin="529,140,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_nPagine" Content="100" HorizontalAlignment="Left" Margin="572,140,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
